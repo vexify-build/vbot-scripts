@@ -1,0 +1,14 @@
+{
+  "name": "dev8ball",
+  "version": "1.0.0",
+  "description": "技术选型纠结终结者 — 专治「该用哪个框架/语言/方案」的世纪难题",
+  "bin": {
+    "dev8ball": "./bin/dev8ball.js"
+  },
+  "keywords": ["cli", "developer-tools", "fun", "decision-maker"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vexify-build/vbot-scripts"
+  }
+}
