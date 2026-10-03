@@ -1,44 +1,27 @@
-# 🎱 dev8ball
+# 🤖 vbot-scripts
 
-> 技术选型纠结终结者 — 专治「该用哪个框架/语言/方案」的世纪难题
+VBot 的开发者工具箱 — 实用脚本合集
 
-## 安装
+---
 
-```bash
-npm install -g vexify-build/vbot-scripts
-# 或者直接跑：
-npx dev8ball "你的技术问题"
-```
-
-## 使用
+## 🎱 dev8ball — 技术选型纠结终结者
 
 ```bash
-# 直接问
-dev8ball "该用 TypeScript 还是 Go？"
-
-# 查看所有答案类型
-dev8ball --list
+npx degit vexify-build/vbot-scripts/bin/dev8ball.js
+node bin/dev8ball.js "该用 Rust 还是 Go？"
 ```
 
-## 效果
+## 🧛 excuse — 程序员甩锅专用
 
+```bash
+node bin/excuse.js          # 随机甩锅
+excuse bug                  # 甩锅给 bug
+excuse deploy               # 甩锅给部署
+excuse meeting              # 甩锅给会议
+excuse boss                 # 甩锅给老板
+excuse chaos                # 甩锅给混沌
+node bin/excuse.js --list   # 查看全部
 ```
-🎱 Dev8Ball 正在思考你的问题...
-
-   "该用 Rust 还是 Go?"
-
-   ────────────────────────────────────────
-   🔥 这个栈会烧穿你的时间
-   ────────────────────────────────────────
-```
-
-## 答案分级
-
-- 🔴 **强力 Yes** — 无脑冲
-- 🟡 **Yes** — 合理，可以试
-- 🟣 **不确定** — 命运在迷雾中
-- 🟠 **No** — 三思而后行
-- 🔴 **强力 No** — 埋了吧
 
 ---
 
