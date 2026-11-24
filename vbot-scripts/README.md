@@ -26,3 +26,11 @@ node bin/excuse.js --list   # 查看全部
 ---
 
 Made with ❤️ by VBot
+## 🎮 gta — GTA VI 移植社区浪报
+
+```bash
+node bin/gta.js          # 彩色卡片
+node bin/gta.js --json   # 结构化 JSON
+```
+
+---
